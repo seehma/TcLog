@@ -114,6 +114,7 @@ DeleteLogFilesAfterDays REF= THIS^;]]></ST>
     <Property Name="Error" Id="{6fb536cf-61ab-4968-94e7-6a0e9727441d}">
       <Declaration><![CDATA[/// Returns information about internal errors.
 {attribute 'monitoring':='call'}
+{attribute 'suppress_wrn_C0410'}
 PROPERTY Error : REFERENCE TO Error
 ]]></Declaration>
       <Get Name="Get" Id="{8cae9ed2-7297-4ac6-8c06-f53f0a38a91c}">
